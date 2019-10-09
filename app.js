@@ -1,3 +1,5 @@
+// creating object of Date
+
 let currentdate=new Date();
 const day=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const month=['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -12,6 +14,8 @@ let displayHours=0;
 
 let interval = null;
 let lap = "00:00:00"; 
+
+// When the screen opens
 
 $(document).ready(function(){
     $("#showTime").hide();
@@ -33,6 +37,9 @@ $(document).ready(function(){
 //window.setInterval(tm,1000);
     $("#messageFunc,#showMessage,#musicPlayer,#clock").hide();
 })
+
+// On clicking the message buttton
+
 $("#messageButton").click(function(){
     $("#showTime").text(currentdate.getHours()+":"+currentdate.getMinutes());
     $("#showTime,#messageFunc").show();
@@ -41,6 +48,9 @@ $("#messageButton").click(function(){
     $("#musicButton,#timerButton").css("color","rgb(34, 36, 34)");
     $("#hr,#min,#dt,#showMessage,#musicPlayer,#clock").hide();
 })
+
+// On clicking the Music buttton
+
 $("#musicButton").click(function(){
     $("#showTime").text(currentdate.getHours()+":"+currentdate.getMinutes());
     $("#showTime,#musicPlayer").show();
@@ -48,6 +58,10 @@ $("#musicButton").click(function(){
     $("#musicButton").css("color","rgb(24, 240, 89)");
     $("#hr,#min,#dt,#messageFunc,#showMessage,#clock").hide();
 })
+
+// On clicking the Timer buttton
+
+
 $("#timerButton").click(function(){
     $("#showTime").text(currentdate.getHours()+":"+currentdate.getMinutes());
     $("#showTime,#clock,#play").show();
@@ -56,11 +70,16 @@ $("#timerButton").click(function(){
     $("#hr,#min,#dt,#messageFunc,#showMessage,#musicPlayer,#pause").hide();
 })
 
+// On clicking the first message buttton
+
+
 $("#firstMsg").click(function(){
     $("#showMessage,#firstMsgShow").show();
     //$("#firstMsgShow").show();
     $("#messageFunc,#secondMsgShow,#thirdMsgShow").hide();
 })
+
+// On clicking the second message buttton
 
 $("#secondMsg").click(function(){
     $("#showMessage,#secondMsgShow").show();
@@ -68,33 +87,49 @@ $("#secondMsg").click(function(){
     $("#messageFunc,#firstMsgShow,#thirdMsgShow").hide();
 })
 
+// On clicking the third message buttton
+
 $("#thirdMsg").click(function(){
     $("#showMessage,#thirdMsgShow").show();
     // $("#thirdMsgShow").show();
     $("#messageFunc,#secondMsgShow,#firstMsgShow").hide();
 })
+
+// On clicking the play buttton in stopwatch
+
 $("#play").click(function(){
     $("#play").hide();
     $("#pause").show();
 
     interval=window.setInterval(sw, 1000);
 })
+// On clicking the pause buttton in stopwatch
+
 $("#pause").click(function(){
     $("#pause").hide();
     $("#play").show();
     window.clearInterval(interval);
 })
+// On clicking the reload buttton in stopwatch
+
+
 $("#reload").click(function(){
     reset();
 })
+
+// On clicking the lap buttton in stopwatch
+
 $("#flag").click(function(){
     $("#showLap").text(lap);
 })
+// On clicking the home buttton 
+
 $("#home").click(function(){
     $("#home").css("color","rgb(24, 240, 89)");
     location.reload(true);
 })
 
+// Stop watch function
 
 function sw(){
     seconds++;
@@ -131,6 +166,8 @@ function sw(){
     $("#showStopWatch").text(displayHours+":"+displayMinutes+":"+displaySeconds);
     lap=displayHours+":"+displayMinutes+":"+displaySeconds;
 }
+
+//reset function of stop watch
 
 function reset(){
     window.clearInterval(interval);
