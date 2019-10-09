@@ -5,7 +5,7 @@ Its a Web based smart watch where a user can see messages, play music and use st
 
 # Language Used
 
-Html, Css, Jquery
+Html, Css, Jquery, Bootstrap
 
 # Preview
 https://happy-lamport-a4cc1e.netlify.com/
