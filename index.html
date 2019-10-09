@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Smart Watch</title>
+</head>
+<body>
+    <div class="conatainer-fluid">
+        <div class="row">
+            <div class="col left">
+                <h1 class="heading"><span id="header-span">Smart</span>Watch</h1>
+            </div>
+            <div class="col right">
+                <div class="row upstrap">
+                   <div class="col-sm"></div>
+                   <div class="col-sm upstrap1">
+                       <div class="upperStrap"></div>
+                   </div>
+                   <div class="col-sm"></div>
+                </div>
+                <div class="row mainWindow">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-5 implementation">
+                        <div class="outerbox">
+                            <div class="innerbox">
+                                <div class="row upperTime">
+                                    <div class="col-sm"></div>
+                                    <div class="col-sm displayTime">
+                                        <p id="showTime">12:00</p>
+                                    </div>
+                                    <div class="col-sm"></div>
+                                </div>
+                                <div id="messageFunc">
+                                    <div id="firstMsg">
+                                         <p>AX-LIFSTL</p>
+                                    </div>
+                                    <div id="secondMsg">
+                                         <p>AD-Myntra</p>
+                                    </div>
+                                    <div id="thirdMsg">
+                                         <p>AX-EcomEx</p>
+                                    </div>
+                                </div>
+                                <div id="showMessage">
+                                    <div id="firstMsgShow">
+                                        <p>  
+                                            Lifestyle presents Denim Destination with Spyker. Shop Monochrome, Checked shirts & more.
+                                        </p>
+                                    </div>
+                                    <div id="secondMsgShow">
+                                        <p>  
+                                            Thanks Customer for reaching out to Myntra Customer Care. we would love to hear feedback.
+                                        </p>
+                                    </div>
+                                    <div id="thirdMsgShow">
+                                            <p>   
+                                                Dear Customer, your BEWAKOOF "Pre Paid" shipment awb 252525 is out for delivery.
+                                            </p>
+                                    </div>
+
+                                </div>
+
+                                        <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" 
+                                        id="musicPlayer" width="238" height="50" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                                <div id="clock">
+                                    <div id="stopWatch">
+                                        <h1 id="showStopWatch">00:00:00</h1>
+                                    </div>
+                                    <div id="lap">
+                                        <h5 id="showLap">00:00:00</h5>
+                                    </div>
+                                    <i id="reload" class="fa fa-refresh fa-2x" aria-hidden="true"></i>
+                                    <i id="play" class="fa fa-play-circle fa-2x" aria-hidden="true"></i>
+                                    <i id="pause" class="fa fa-pause-circle fa-2x" aria-hidden="true"></i>
+                                    <i id="flag" class="fa fa-flag fa-2x" aria-hidden="true"></i>
+                                    
+                                </div>
+                                <div id="welcomeHr"><span id="hr"></span></div>
+                                <div id="welcomeMin"><span id="min"></span></div>
+                                <div id="welcomeDt"><span id="dt"></span></div>
+                                <i id="messageButton" class="fa fa-comments fa-2x"></i>
+                                <i id="musicButton" class="fa fa-music fa-2x "></i>
+                                <i id="timerButton" class="fa fa-clock-o fa-2x"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-3 "></div>                    
+                </div>
+                <div class="row downStrap">
+                    <div class="col-sm"></div>
+                    <div class="col-sm downstrap1">
+                        <div class="lowerStrap">
+                                <i id="home" class="fa fa-home fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>

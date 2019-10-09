@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+:root{
+    --primaryColor:rgb(73, 73, 68);
+    --secondaryColor1:rgb(25, 120, 230);
+    --secondaryColor2:black;
+    --secondaryColor3:rgb(24, 240, 89);
+    --baseColor:rgb(235, 245, 245);
+}
+.col.left{
+    display: flex;
+    height: 100vh;
+    background-color: var(--secondaryColor1);
+        /* align-content: center; */
+    justify-content: center;
+    
+}
+.heading{
+    margin-top: 45%;
+}
+#header-span{
+    color: var(--baseColor);
+}
+.row.upstrap{
+    height: 28%;
+    display: flex;
+}
+.row.mainWindow{
+    height: 50%;
+}
+.row.downStrap{
+    height: 22%;
+}
+.outerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 35px;
+    background-color: var(--primaryColor);
+}
+.innerbox{
+    padding: 10;
+    margin: 10;
+    height: 91%;
+    width: 91%;
+    border-radius: 30px;
+    background-color: var(--secondaryColor2)
+}
+.upperStrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 70%;
+    margin-top: 13vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: var(--primaryColor);
+
+}
+.lowerStrap{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100px;
+    width: 70%;
+    /* margin-bottom:  */
+    background-color: var(--primaryColor);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+#messageButton{
+    position: absolute;
+    bottom: 7%;
+    left: 20%;
+    cursor: pointer;
+}
+#musicButton{
+    position: absolute;
+    bottom: 7%;
+    left: 45%;
+    cursor: pointer;
+}
+#timerButton{
+    position: absolute;
+    bottom: 7%;
+    left: 70%;
+    cursor: pointer;
+}
+img{
+    height: 16px;
+}
+/* span{
+    color: white;
+} */
+#welcomeHr{
+    color: var(--secondaryColor3);
+    font-size: 60px;
+    position: relative;
+    top: 10%;
+    left: 37%
+}
+#welcomeMin{
+    color: var(--secondaryColor3);
+    font-size: 60px;
+    position: relative;
+    left: 37%
+     
+}
+#welcomeDt{
+    color: var(--secondaryColor3);
+    display: flex;
+    justify-content: center;
+}
+.row.upperTime{
+    height: 9%;
+    margin: 0px;
+}
+#displayTime{
+    position: absolute;
+    position: relative;
+    margin-left: 50%;
+}
+#showTime{
+    color: white;
+}
+#messageFunc{
+    position: relative;
+    height: 70%;
+    /* display: none; */
+    /* background-color: aqua; */
+}
+#firstMsg{
+    position: relative;
+    top: 20%;
+    height: 20%;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 3%;
+    cursor: pointer;
+}
+#secondMsg{
+    position: relative;
+    top: 25%;
+    height: 20%;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 3%;
+    cursor: pointer;
+}
+#thirdMsg{
+    position: relative;
+    top: 30%;
+    height: 20%;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 3%;
+    cursor: pointer;
+}
+#showMessage{
+    position: relative;
+    height: 70%;
+    /* display: none; */
+    /* background-color: aqua; */
+}
+#firstMsgShow{
+    position: relative;
+    top: 20%;
+    height: 70%;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding-top: 10%;
+    padding-left: 4%; 
+    /* display: none; */
+}
+#secondMsgShow{
+    position: relative;
+    top: 20%;
+    height: 70%;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-top: 15%; 
+    padding-left: 4%; 
+
+    /* display: none; */
+}
+#thirdMsgShow{
+    position: relative;
+    top: 20%;
+    height: 70%;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding-top: 10%;
+    padding-left: 4%; 
+ 
+    /* display: none; */
+}
+#musicPlayer{
+    position: relative;
+    height: 70%;
+    /* display: none; */
+    /* background-color: aqua;  */
+}
+#clock{
+    position: relative;
+    height: 70%;
+    padding-top: 20px
+    /* display: flex; */
+    /* justify-content: center; */
+    /* display: none; */
+    /* background-color: aqua; */
+}
+#stopWatch{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#lap{
+    display: flex;
+    justify-content: center;
+    color: rgb(116, 112, 112)
+}
+#reload{
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+    color: white;
+    cursor: pointer;
+}
+#play{
+    position: absolute;
+    bottom: 0%;
+    left: 45%; 
+    color: white;
+    cursor: pointer;
+
+}
+#pause{
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+    color: white;
+    cursor: pointer;
+
+}
+#flag{
+    position: absolute;
+    bottom: 0%;
+    left: 75%; 
+    color: white;
+    cursor: pointer;
+
+}
+#home{
+   cursor: pointer;
+   color:rgb(156, 156, 156);
+}
+
