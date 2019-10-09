@@ -8,4 +8,4 @@ Its a Web based smart watch where a user can see messages, play music and use st
 Html, Css, Jquery, Bootstrap
 
 # Preview
-https://happy-lamport-a4cc1e.netlify.com/
+https://gallant-keller-95f2de.netlify.com/
