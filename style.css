@@ -269,4 +269,11 @@ img{
    cursor: pointer;
    color:rgb(156, 156, 156);
 }
+#welcomescreen{
+    position: relative;
+    height: 70%;
+    /* display: none; */
+    color:white;
+    /* background-color: aqua;  */
+}
 
