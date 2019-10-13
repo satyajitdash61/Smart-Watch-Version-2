@@ -32,7 +32,7 @@ function tm(){
     }
     $("#welcomeDt").text(day[currentdate.getDay()]+", "+month[currentdate.getMonth()]+" "+currentdate.getDate());
 }
-
+// When page loads
 $(document).ready(function(){
     $("#showTime").hide();
     $("#messageFunc,#showMessage,#musicPlayer,#clock").hide();
