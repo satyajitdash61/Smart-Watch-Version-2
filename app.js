@@ -123,7 +123,7 @@ $("#home").click(function(){
     status=1;
     reset();
 })
-
+// timer functions
 
 function sw(){
     seconds++;
