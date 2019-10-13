@@ -15,6 +15,7 @@ let displayHours=0;
 let interval = null;
 let lap = "00:00:00"; 
 let status=0;
+// welcome screen information
 function tm(){
     $("#welcomescreen").show();
     if(currentdate.getHours()<10){
