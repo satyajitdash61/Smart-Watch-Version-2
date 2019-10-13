@@ -40,6 +40,7 @@ $(document).ready(function(){
 //window.setInterval(tm,1000);
     
 })
+// When message button is clicked
 $("#messageButton").click(function(){
     $("#showTime").text(currentdate.getHours()+":"+currentdate.getMinutes());
     $("#showTime,#messageFunc").show();
