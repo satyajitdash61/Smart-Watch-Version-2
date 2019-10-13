@@ -61,6 +61,7 @@ $("#musicButton").click(function(){
     $("#hr,#min,#dt,#messageFunc,#showMessage,#clock,#welcomescreen").hide();
     status=1;
 })
+// When timer button is clicked
 $("#timerButton").click(function(){
     $("#showTime").text(currentdate.getHours()+":"+currentdate.getMinutes());
     $("#showTime,#clock,#play").show();
