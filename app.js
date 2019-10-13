@@ -77,7 +77,7 @@ $("#timerButton").click(function(){
     reset()
     
 })
-
+// When messages are clicked
 $("#firstMsg").click(function(){
     $("#showMessage,#firstMsgShow").show();
     //$("#firstMsgShow").show();
