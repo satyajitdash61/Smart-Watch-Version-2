@@ -51,6 +51,7 @@ $("#messageButton").click(function(){
     $("#hr,#min,#dt,#showMessage,#musicPlayer,#clock,#welcomescreen").hide();
     status=1;
 })
+// when music button is clicked
 $("#musicButton").click(function(){
     $("#showTime").text(currentdate.getHours()+":"+currentdate.getMinutes());
     $("#showTime,#musicPlayer").show();
