@@ -28,6 +28,7 @@ body{
 #header-span{
     color: var(--baseColor);
 }
+/* Upper strap */
 .row.upstrap{
     height: 28%;
     display: flex;
