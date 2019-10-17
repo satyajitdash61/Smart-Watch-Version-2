@@ -273,6 +273,7 @@ img{
    cursor: pointer;
    color:rgb(156, 156, 156);
 }
+/* welcome screen */
 #welcomescreen{
     position: relative;
     height: 70%;
