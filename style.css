@@ -13,6 +13,7 @@ body{
     --secondaryColor3:rgb(24, 240, 89);
     --baseColor:rgb(235, 245, 245);
 }
+/* left sode screen */
 .col.left{
     display: flex;
     height: 100vh;
