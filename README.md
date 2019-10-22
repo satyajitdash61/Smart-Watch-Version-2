@@ -5,7 +5,7 @@ Its a Web based smart watch where a user can see messages, play spotify music an
 
 # Language Used
 
-Html, Css, Jquery, Bootstrap
+Html-5, Css, Jquery, Bootstrap
 
 # Preview
 https://sad-pike-76f6cb.netlify.com/
